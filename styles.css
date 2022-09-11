@@ -1,0 +1,67 @@
+/* resetting browser (kinda)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    transition: 0.3s ease;
+}
+
+/* Header Starts*/
+header{
+    background-color: rgb(33, 33, 34);
+    height: 10vh;
+    min-height: 80px;
+}
+.title{
+    font-size: 60px;
+    word-spacing: 200px;
+    color: #fff;
+    padding: 0.5rem;
+}
+/* Header Ends*/
+body{
+    text-align: center;
+}
+
+.text{
+    font-size: 32px;
+}
+
+h2,h5, .info {
+    padding: 1rem;
+}
+.info{
+    color: rgba(0, 0, 0, 0.2)
+}
+
+.img img{
+    background-color: aliceblue;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    margin: 1rem 3rem;
+}
+.img img:hover{
+    width: 160px;
+    height: 160px;
+
+}
+
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 80px;
+}
+
+.result{
+    font-size: 60px;
+    margin: 2rem;
+}
+.computer{
+    width: 150px;
+    height: 150px;
+}
